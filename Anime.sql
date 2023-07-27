@@ -1,5 +1,5 @@
-CREATE TABLE anime (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE animes (
+    id SERIAL PRIMARY KEY,
     english_title VARCHAR(100) NOT NULL,
     jap_title VARCHAR(100) NOT NULL,
     synopsis TEXT,
